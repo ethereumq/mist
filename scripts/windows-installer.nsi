@@ -26,7 +26,7 @@ CRCCheck on
 RequestExecutionLevel admin
 
 !searchreplace APPNAMENOHYPEN ${APPNAME} "-" " "
-!define GROUPNAME "EthereumQuantum"
+!define GROUPNAME "Ethereumq"
 !define HELPURL "https://github.com/ethereumq/mist/releases/issues"
 !define UPDATEURL "https://github.com/ethereumq/mist/releases"
 !define ABOUTURL "https://ethereumq.org"
@@ -65,7 +65,7 @@ ${EndIf}
 
     SetShellVarContext current
     StrCpy $DATADIR "$APPDATA\${APPNAME}"
-    StrCpy $NODEDATADIR "$APPDATA\EthereumQuantum"
+    StrCpy $NODEDATADIR "$APPDATA\EthereumQ"
     StrCpy $SHORTCUTDIR "$SMPROGRAMS\${APPNAMENOHYPEN}"
     StrCpy $DESKTOPDIR "$DESKTOP"
 
@@ -168,9 +168,9 @@ Section Mist MIST_IDX
     CreateShortCut "$SHORTCUTDIR\Uninstall.lnk" "$FILEDIR\uninstall.exe"
 
     ## Firewall - add rules
-    #SimpleFC::AdvAddRule "Geth incoming peers (TCP:40303)" ""  6 1 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" "EthereumQuantum" 40303 "" "" ""
-    #SimpleFC::AdvAddRule "Geth outgoing peers (TCP:40303)" ""  6 2 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" "EthereumQuantum" "" 40303 "" ""
-    #SimpleFC::AdvAddRule "Geth UDP discovery (UDP:40303)" "" 17 2 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" "EthereumQuantum" "" 40303 "" ""
+    #SimpleFC::AdvAddRule "Geth incoming peers (TCP:40303)" ""  6 1 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" "EthereumQ" 40303 "" "" ""
+    #SimpleFC::AdvAddRule "Geth outgoing peers (TCP:40303)" ""  6 2 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" "EthereumQ" "" 40303 "" ""
+    #SimpleFC::AdvAddRule "Geth UDP discovery (UDP:40303)" "" 17 2 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" "EthereumQ" "" 40303 "" ""
 
     # write registry strings for uninstallation
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${GROUPNAME} ${APPNAME}" "DisplayName" "${GROUPNAME} ${APPNAME}"
