@@ -116,7 +116,7 @@
             }
         },
         "startScreen": {
-            "runningNodeFound": "走っているEthereum nodeを見つけました!",
+            "runningNodeFound": "走っているEthereum Quantum nodeを見つけました!",
             "startingNode": "Ethereum Quantum ノードを開始しています。",
             "startedNode": "アプリケーションを開始しています...",
             "nodeConnectionTimeout": "Ethereum Quantum nodeをスタート出来ませんでした!<br><small>もし<a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>Geth</a>をインストールしているならば,このコマンドを使ってみてください: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereumq/mist/issues' class='button' target='_blank'>もしくは問題を報告して下さい。 </a></small>",

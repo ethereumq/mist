@@ -181,7 +181,7 @@ test['Browse tab should be changed to pinned tab if URLs are the same'] = functi
     const client = this.client;
     yield this.selectTab('browser');
 
-    yield this.navigateTo('https://wallet.ethereum.org');
+    yield this.navigateTo('https://wallet.ethereumq.org');
     yield Q.delay(1000);
     const selectedTab = (yield client.execute(() => { // code executed in browser context
         return LocalStore.get('selectedTab');
@@ -194,7 +194,7 @@ test['Wallet tab shouldn\'t have the page replaced if URLs does not match'] = fu
     const client = this.client;
     yield this.selectTab('wallet');
 
-    yield this.navigateTo(`${this.fixtureBaseUrl}index.html?https://wallet.ethereum.org`);
+    yield this.navigateTo(`${this.fixtureBaseUrl}index.html?https://wallet.ethereumq.org`);
     yield client.waitUntil(() => {
         return client.execute(() => {
             return LocalStore.get('selectedTab') === 'browser';
@@ -207,7 +207,7 @@ test['Wallet tab shouldn\'t have the page replaced if URLs does not match - 2'] 
     yield this.selectTab('wallet');
 
     // Now changing address via JS
-    yield client.setValue('#url-input', `${this.fixtureBaseUrl}index.html?https://wallet.ethereum.org`);
+    yield client.setValue('#url-input', `${this.fixtureBaseUrl}index.html?https://wallet.ethereumq.org`);
     yield client.execute(() => { // Code executed in context of browser
         $('form.url').submit();
     });

@@ -152,7 +152,7 @@
             "nodeStarting": "Node d'Ethereum iniciant-se...",
             "nodeStarted": "Node d'Ethereum iniciat",
             "nodeConnected": "Node d'Ethereum connectat",
-            "nodeStopping": "Ethereum node aturant-se...",
+            "nodeStopping": "Ethereum Quantum node aturant-se...",
             "nodeStopped": "Node d'Ethereum aturat",
             "nodeError": "Error de connectivitat del node d'Ethereum:'(",
             "unableToBindPort": "El node d'Ethereum no pot executar-se. N'hi ha alguna altra instància excutant-se?",
