@@ -48,7 +48,7 @@ class Manager extends EventEmitter {
     }
 
     _checkForNewConfig(restart) {
-        const nodeType = 'Geth';
+        const nodeType = 'Gethq';
         let binariesDownloaded = false;
         let nodeInfo;
 
@@ -192,7 +192,7 @@ class Manager extends EventEmitter {
 
             return mgr.init({
                 folders: [
-                    path.join(Settings.userDataPath, 'binaries', 'Geth', 'unpacked'),
+                    path.join(Settings.userDataPath, 'binaries', 'Gethq', 'unpacked'),
                     path.join(Settings.userDataPath, 'binaries', 'Eth', 'unpacked'),
                 ],
             })
@@ -298,7 +298,7 @@ class Manager extends EventEmitter {
             __dirname,
             '..',
             'nodes',
-            'eth',
+            'ethq',
             `${platform}-${process.arch}`
         );
 
@@ -307,17 +307,17 @@ class Manager extends EventEmitter {
             binPath = binPath.replace('nodes', path.join('..', '..', 'nodes'));
         }
 
-        binPath = path.join(path.resolve(binPath), 'eth');
+        binPath = path.join(path.resolve(binPath), 'ethq');
 
         if (platform === 'win') {
             binPath += '.exe';
         }
 
-        log.info(`Eth client binary path: ${binPath}`);
+        log.info(`Ethq client binary path: ${binPath}`);
 
         this._availableClients.eth = {
             binPath,
-            version: '1.3.0',
+            version: '1.7.4',
         };
     }
 }
