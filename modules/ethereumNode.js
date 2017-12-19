@@ -11,7 +11,7 @@ const EventEmitter = require('events').EventEmitter;
 const Sockets = require('./socketManager');
 const ClientBinaryManager = require('./clientBinaryManager');
 
-const DEFAULT_NODE_TYPE = 'geth';
+const DEFAULT_NODE_TYPE = 'gethq';
 const DEFAULT_NETWORK = 'main';
 const DEFAULT_SYNCMODE = 'fast';
 
@@ -77,7 +77,7 @@ class EthereumNode extends EventEmitter {
     }
 
     get isGeth() {
-        return this._type === 'geth';
+        return this._type === 'gethq';
     }
 
     get isMainNetwork() {
@@ -317,7 +317,7 @@ class EthereumNode extends EventEmitter {
 
                 // if unable to start eth node then write geth to defaults
                 if (nodeType === 'eth') {
-                    Settings.saveUserData('node', 'geth');
+                    Settings.saveUserData('node', 'gethq');
                 }
 
                 throw err;
@@ -408,7 +408,7 @@ class EthereumNode extends EventEmitter {
 
                 // Starts Main net
                 default:
-                    args = (nodeType === 'geth')
+                    args = (nodeType === 'gethq')
                         ? [
                             '--syncmode', syncMode,
                             '--cache', ((process.arch === 'x64') ? '1024' : '512')

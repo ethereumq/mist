@@ -483,7 +483,7 @@ let menuTempl = function (webviews) {
         const nodeSubmenu = [];
 
         const ethClient = ClientBinaryManager.getClient('eth');
-        const gethClient = ClientBinaryManager.getClient('geth');
+        const gethClient = ClientBinaryManager.getClient('gethq');
 
         if (gethClient) {
             nodeSubmenu.push({
@@ -572,7 +572,7 @@ let menuTempl = function (webviews) {
             checked: ethereumNode.isLightMode,
             type: 'checkbox',
             click() {
-                restartNode('geth', null, (ethereumNode.isLightMode) ? 'fast' : 'light');
+                restartNode('gethq', null, (ethereumNode.isLightMode) ? 'fast' : 'light');
             },
         });
     }
