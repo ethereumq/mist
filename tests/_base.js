@@ -32,10 +32,10 @@ const startGeth = function* () {
 
     if (!manager.clients.Geth.state.available) {
         gethPath = manager.clients.Geth.activeCli.fullPath;
-        console.info('Downloading geth...');
-        const downloadedGeth = yield manager.download('Geth');
+        console.info('Downloading gethq...');
+        const downloadedGeth = yield manager.download('Gethq');
         gethPath = downloadedGeth.client.activeCli.fullPath;
-        console.info('Geth downloaded at:', gethPath);
+        console.info('Gethq downloaded at:', gethPath);
     }
 
     const geth = gethPrivate({
@@ -54,9 +54,9 @@ const startGeth = function* () {
         },
     });
 
-    log.info('Geth starting...');
+    log.info('Gethq starting...');
     yield geth.start();
-    log.info('Geth started');
+    log.info('Gethq started');
 
     return geth;
 };
@@ -102,7 +102,7 @@ exports.mocha = (_module, options) => {
             const platformArch = `${process.platform}-${process.arch}`;
 
             let appPath;
-            const ipcProviderPath = path.join(this.geth.dataDir, 'geth.ipc');
+            const ipcProviderPath = path.join(this.geth.dataDir, 'gethq.ipc');
 
             switch (platformArch) {
             case 'darwin-x64':
@@ -222,7 +222,7 @@ exports.mocha = (_module, options) => {
             }
 
             if (this.geth && this.geth.isRunning) {
-                console.log('Stopping geth...');
+                console.log('Stopping gethq...');
                 yield this.geth.stop();
             }
 

@@ -168,9 +168,9 @@ Section Mist MIST_IDX
     CreateShortCut "$SHORTCUTDIR\Uninstall.lnk" "$FILEDIR\uninstall.exe"
 
     ## Firewall - add rules
-    #SimpleFC::AdvAddRule "Geth incoming peers (TCP:40303)" ""  6 1 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" ""Ethereum Quantum uantum" 40303 "" "" ""
-    #SimpleFC::AdvAddRule "Geth outgoing peers (TCP:40303)" ""  6 2 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" ""Ethereum Quantum uantum" "" 40303 "" ""
-    #SimpleFC::AdvAddRule "Geth UDP discovery (UDP:40303)" "" 17 2 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" ""Ethereum Quantum uantum" "" 40303 "" ""
+    #SimpleFC::AdvAddRule "Gethq incoming peers (TCP:40303)" ""  6 1 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" ""Ethereum Quantum" 40303 "" "" ""
+    #SimpleFC::AdvAddRule "Gethq outgoing peers (TCP:40303)" ""  6 2 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" ""Ethereum Quantum " "" 40303 "" ""
+    #SimpleFC::AdvAddRule "Gethq UDP discovery (UDP:40303)" "" 17 2 1 2147483647 1 "$DATADIR\binaries\Gethq\unpacked\gethq.exe" "" "" ""Ethereum Quantum " "" 40303 "" ""
 
     # write registry strings for uninstallation
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${GROUPNAME} ${APPNAME}" "DisplayName" "${GROUPNAME} ${APPNAME}"
@@ -237,9 +237,9 @@ Section "uninstall"
     rmDir /r /REBOOTOK "$FILEDIR"
 
     ## Firewall - remove rules (if exists)
-    #SimpleFC::AdvRemoveRule "Geth incoming peers (TCP:30303)"
-    #SimpleFC::AdvRemoveRule "Geth outgoing peers (TCP:30303)"
-    #SimpleFC::AdvRemoveRule "Geth UDP discovery (UDP:30303)"
+    #SimpleFC::AdvRemoveRule "Gethq incoming peers (TCP:40303)"
+    #SimpleFC::AdvRemoveRule "Gethq outgoing peers (TCP:40303)"
+    #SimpleFC::AdvRemoveRule "Gethq UDP discovery (UDP:40303)"
 
     # delete registry strings
     DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${GROUPNAME} ${APPNAME}"

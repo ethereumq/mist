@@ -487,12 +487,12 @@ let menuTempl = function (webviews) {
 
         if (gethClient) {
             nodeSubmenu.push({
-                label: `Geth ${gethClient.version}`,
+                label: `Gethq ${gethClient.version}`,
                 checked: ethereumNode.isOwnNode && ethereumNode.isGeth,
                 enabled: ethereumNode.isOwnNode,
                 type: 'checkbox',
                 click() {
-                    restartNode('geth', null, 'fast', webviews);
+                    restartNode('gethq', null, 'fast', webviews);
                 },
             });
         }
