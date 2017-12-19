@@ -1,6 +1,6 @@
 {
     "clients": {
-        "Geth": {
+        "Gethq": {
             "version": "1.7.4",
             "platforms": {
                 "linux": {

@@ -257,7 +257,7 @@ class EthereumNode extends EventEmitter {
 
     /**
      * Start an Ethereum Quantum node.
-     * @param  {String} nodeType geth, eth, etc
+     * @param  {String} nodeType gethq, eth, etc
      * @param  {String} network  network id
      * @return {Promise}
      */
@@ -358,7 +358,7 @@ class EthereumNode extends EventEmitter {
      */
     __startProcess(nodeType, network, binPath, _syncMode) {
         let syncMode = _syncMode;
-        if (nodeType === 'geth' && !syncMode) {
+        if (nodeType === 'gethq' && !syncMode) {
             syncMode = 'fast';
         }
 
@@ -457,7 +457,7 @@ class EthereumNode extends EventEmitter {
                     if (STATES.STARTING === this.state) {
                         const dataStr = data.toString().toLowerCase();
 
-                        if (nodeType === 'geth') {
+                        if (nodeType === 'gethq') {
                             if (dataStr.indexOf('fatal: error') >= 0) {
                                 const error = new Error(`Geth error: ${dataStr}`);
 
