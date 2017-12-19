@@ -12,13 +12,13 @@ Please note that this repository is the Electron host for the Meteor based walle
 
 ## Help and troubleshooting
 
-Please check the [Mist troubleshooting guide](https://github.com/"ethereumq/minst/wiki).
+Please check the [Mist troubleshooting guide](https://github.com/ethereumq/minst/wiki).
 
 Or the [Gitter Channel](https://gitter.im/ethereum/mist), to connect with the community for instant help.
 
 ## Installation
 
-If you want to install the app from a pre-built version on the [release page](https://github.com/"ethereumq/minst/releases),
+If you want to install the app from a pre-built version on the [release page](https://github.com/ethereumq/minst/releases),
 you can simply run the executeable after download.
 
 For updating simply download the new version and copy it over the old one (keep a backup of the old one if you want to be sure).
@@ -57,7 +57,7 @@ Install the latter ones via:
 
 Now you're ready to initialise Mist for development:
 
-    $ git clone https://github.com/"ethereumq/minst.git
+    $ git clone https://github.com/ethereumq/minst.git
     $ cd mist
     $ yarn
 
@@ -79,7 +79,7 @@ In the original window you can then start Mist with:
     $ cd mist
     $ yarn dev:electron
 
-*NOTE: client-binaries (e.g. [geth](https://github.com/"Ethereum Quantum /go-ethereum)) specified in [clientBinaries.json](https://github.com/"ethereumq/minst/blob/master/clientBinaries.json) will be checked during every startup and downloaded if out-of-date, binaries are stored in the [config folder](#config-folder)*
+*NOTE: client-binaries (e.g. [geth](https://github.com/"Ethereum Quantum /go-ethereum)) specified in [clientBinaries.json](https://github.com/ethereumq/minst/blob/master/clientBinaries.json) will be checked during every startup and downloaded if out-of-date, binaries are stored in the [config folder](#config-folder)*
 
 *NOTE: use `--help` to display available options, e.g. `--loglevel debug` (or `trace`) for verbose output*
 

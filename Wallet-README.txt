@@ -56,11 +56,11 @@ The wallet code can be found at
 https://github.com/"Ethereum Quantum /meteor-dapp-wallet
 
 And the binary application code, which wraps the wallet app can be found at
-https://github.com/"ethereumq/minst/tree/wallet
+https://github.com/ethereumq/minst/tree/wallet
 
 
 
 ## Bundling the wallet
 
 To bundle the binaries yourself follow the instructions on the mist#wallet readme
-https://github.com/"ethereumq/minst/tree/wallet#deployment
+https://github.com/ethereumq/minst/tree/wallet#deployment

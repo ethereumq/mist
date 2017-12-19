@@ -121,7 +121,7 @@ gulp.task('build-dist', (cb) => {
         name: applicationName.replace(/\s/, ''),
         productName: applicationName,
         description: applicationName,
-        homepage: 'https://github.com/"ethereumq/minst',
+        homepage: 'https://github.com/ethereumq/minst',
         build: {
             appId: `com.ethereum.${type}`,
             asar: true,
