@@ -118,7 +118,7 @@ gulp.task('copy-i18n', () => {
 
 gulp.task('build-dist', (cb) => {
     const appPackageJson = _.extend({}, require('../package.json'), {  // eslint-disable-line global-require
-        name: applicationName.replace(/\s/, ''),
+        name: applicationName.replace(/\s/, '').replace(/\s/, ''),
         productName: applicationName,
         description: applicationName,
         homepage: 'https://github.com/ethereumq/minst',
@@ -209,8 +209,8 @@ gulp.task('release-dist', (done) => {
     shell.rm('-rf', releasePath);
     shell.mkdir('-p', releasePath);
 
-    const appNameHypen = applicationName.replace(/\s/, '-');
-    const appNameNoSpace = applicationName.replace(/\s/, '');
+    const appNameHypen = applicationName.replace(/\s/, '-').eplace(/\s/, '-');
+    const appNameNoSpace = applicationName.replace(/\s/, '').replace(/\s/, '');
     const versionDashed = version.replace(/\./g, '-');
 
     const cp = (inputPath, outputPath) => {
