@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "Legacy chain detected",
-                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/ethereumq/mist/releases/0.8.2"
+                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/"Ethereum Quantum /mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -119,8 +119,8 @@
             "runningNodeFound": "Trovato nodo Ethereum Quantum in esecuzione!",
             "startingNode": "Avvio nodo Ethereum Quantum ...",
             "startedNode": "Avvio applicazione...",
-            "nodeConnectionTimeout": "Impossibile avviare un nodo Ethereum!<br><small>Se <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>hai installato Geth</a>, usa questo comando per eseguirlo:<br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereumq/mist/issues' class='button' target='_blank'> o riporta il problema </a></small>",
-            "nodeBinaryNotFound": "Impossibile trovare l'eseguibile del nodo Ethereum Quantum !<br><small> <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'> Per favore avvialo manualmente prima. </a> </small>",
+            "nodeConnectionTimeout": "Impossibile avviare un nodo Ethereum!<br><small>Se <a href='https://www."Ethereum Quantum .org/cli#geth' class='button' target='_blank'>hai installato Geth</a>, usa questo comando per eseguirlo:<br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/"Ethereum Quantum /mist/issues' class='button' target='_blank'> o riporta il problema </a></small>",
+            "nodeBinaryNotFound": "Impossibile trovare l'eseguibile del nodo Ethereum Quantum !<br><small> <a href='https://www."Ethereum Quantum .org/cli#geth' class='button' target='_blank'> Per favore avvialo manualmente prima. </a> </small>",
             "nodeSyncing": "Il nodo Ethereum Quantum deve sincronizzarsi, attendere prego...",
             "nodeSyncInfo": "Scaricamento blocco __displayBlock__ di __highestBlock__.",
             "nodeSyncConnecting": "Alla ricerca di nodi...",

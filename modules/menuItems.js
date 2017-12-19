@@ -211,17 +211,17 @@ let menuTempl = function (webviews) {
                             // geth
                             } else {
                                 if (process.platform === 'darwin') {
-                                    userPath += '/Library/EthereumQ/keystore';
+                                    userPath += '/Library/"Ethereum Quantum /keystore';
                                 }
 
                                 if (process.platform === 'freebsd' ||
                                 process.platform === 'linux' ||
                                 process.platform === 'sunos') {
-                                    userPath += '/.ethereumq/keystore';
+                                    userPath += '/."Ethereum Quantum /keystore';
                                 }
 
                                 if (process.platform === 'win32') {
-                                    userPath = `${Settings.appDataPath}\\EthereumQ\\keystore`;
+                                    userPath = `${Settings.appDataPath}\\"Ethereum Quantum \\keystore`;
                                 }
                             }
 
@@ -652,7 +652,7 @@ let menuTempl = function (webviews) {
     helpMenu.push({
         label: i18n.t('mist.applicationMenu.help.mistWiki'),
         click() {
-            shell.openExternal('https://github.com/ethereumq/mist/wiki');
+            shell.openExternal('https://github.com/"Ethereum Quantum /mist/wiki');
         },
     }, {
         label: i18n.t('mist.applicationMenu.help.gitter'),
@@ -662,7 +662,7 @@ let menuTempl = function (webviews) {
     }, {
         label: i18n.t('mist.applicationMenu.help.reportBug'),
         click() {
-            shell.openExternal('https://github.com/ethereumq/mist/issues');
+            shell.openExternal('https://github.com/"Ethereum Quantum /mist/issues');
         },
     });
 

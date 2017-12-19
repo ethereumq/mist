@@ -273,11 +273,11 @@ class Settings {
         ipcPath = this.userHomePath;
 
         if (process.platform === 'darwin') {
-            ipcPath += '/Library/Ethereumq/gethq.ipc';
+            ipcPath += '/Library/"Ethereum Quantum /gethq.ipc';
         } else if (process.platform === 'freebsd' ||
        process.platform === 'linux' ||
        process.platform === 'sunos') {
-            ipcPath += '/.ethereumq/gethq.ipc';
+            ipcPath += '/."Ethereum Quantum /gethq.ipc';
         } else if (process.platform === 'win32') {
             ipcPath = '\\\\.\\pipe\\gethq.ipc';
         }

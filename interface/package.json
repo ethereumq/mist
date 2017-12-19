@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumq/mist.git"
+    "url": "git+https://github.com/"Ethereum Quantum /mist.git"
   },
   "keywords": [
     "ethereum",
@@ -18,9 +18,9 @@
   "author": "Fabian Vogelsteller <fabian@ethereum.org>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ethereumq/mist/issues"
+    "url": "https://github.com/"Ethereum Quantum /mist/issues"
   },
-  "homepage": "https://github.com/ethereumq/mist#readme",
+  "homepage": "https://github.com/"Ethereum Quantum /mist#readme",
   "dependencies": {
     "babel-runtime": "^6.18.0"
   }

@@ -40,7 +40,7 @@ gulp.task('update-nodes', (cb) => {
                 let blobs; // azure blobs
 
                 // Query Azure assets for md5 hashes
-                got('https://ethereumq.org/builds?restype=container&comp=list', { xml: true })
+                got('https://"Ethereum Quantum .org/builds?restype=container&comp=list', { xml: true })
                 .then((response) => {
                     parseJson(response.body, (err, data) => {  // eslint-disable-line
                         if (err) return cb(err);

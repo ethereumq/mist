@@ -145,13 +145,13 @@ ipc.on('backendAction_checkWalletFile', (e, path) => {
                     }
                 // geth
                 } else {
-                    if (process.platform === 'darwin') keystorePath += '/Library/Ethereumq/keystore';
+                    if (process.platform === 'darwin') keystorePath += '/Library/"Ethereum Quantum /keystore';
 
                     if (process.platform === 'freebsd' ||
                         process.platform === 'linux' ||
-                        process.platform === 'sunos') keystorePath += '/.ethereumq/keystore';
+                        process.platform === 'sunos') keystorePath += '/."Ethereum Quantum /keystore';
 
-                    if (process.platform === 'win32') keystorePath = `${Settings.appDataPath}\\EthereumQ\\keystore`;
+                    if (process.platform === 'win32') keystorePath = `${Settings.appDataPath}\\"Ethereum Quantum \\keystore`;
                 }
 
                 if (!/^[0-9a-fA-F]{40}$/.test(keyfile.address)) {

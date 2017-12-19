@@ -363,7 +363,7 @@ onReady = () => {
                     message: global.i18n.t('mist.errors.legacyChain.title'),
                     detail: global.i18n.t('mist.errors.legacyChain.description')
                 }, () => {
-                    shell.openExternal('https://github.com/ethereumq/mist/releases');
+                    shell.openExternal('https://github.com/"Ethereum Quantum /mist/releases');
                     app.quit();
                 });
 
