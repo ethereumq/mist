@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "Veraltete Chain erkannt",
-                "description": "Dein Softwareknoten ist zur Zeit auf der nicht unterstützten Ethereum Quantum Classic Chain. Um diese Chain zu nutzen, verwende die Tools vom Ethereum Quantum Classic Project unter\nhttps://ethereumclassic.github.io.\n\nUm zur Hauptchain von Ethereum Quantum zurückzukehren, folge den Schritten in diesem Tutorial:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+                "description": "Dein Softwareknoten ist zur Zeit auf der nicht unterstützten Ethereum Quantum Classic Chain. Um diese Chain zu nutzen, verwende die Tools vom Ethereum Quantum Classic Project unter\nhttps://ethereumclassic.github.io.\n\nUm zur Hauptchain von Ethereum Quantum zurückzukehren, folge den Schritten in diesem Tutorial:\nhttps://github.com/ethereumq/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -119,7 +119,7 @@
             "runningNodeFound": "Laufender Ethereum Quantum Softwareknoten gefunden!",
             "startingNode": "Starte Ethereum Quantum Softwareknoten...",
             "startedNode": "Starte Anwendung...",
-            "nodeConnectionTimeout": "Ethereum Softwareknoten konnte nicht gestartet werden!<br><small>Wenn du <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>Geth installiert hast,</a>, verwende bitte diesen Befehl, um Geth zu starten: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'>oder sende einen Fehlerreport</a></small>",
+            "nodeConnectionTimeout": "Ethereum Softwareknoten konnte nicht gestartet werden!<br><small>Wenn du <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>Geth installiert hast,</a>, verwende bitte diesen Befehl, um Geth zu starten: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereumq/mist/issues' class='button' target='_blank'>oder sende einen Fehlerreport</a></small>",
             "nodeBinaryNotFound": "Keine Programmdatei für den Ethereum Quantum Softwareknoten gefunden!<br><small> <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'> Bitte starte den Ethereum Quantum Softwareknoten manuell. </a> </small>",
             "nodeSyncing": "Ethereum Softwareknoten muss synchronisieren, bitte warten...",
             "nodeSyncInfo": "Block __displayBlock__ von __highestBlock__ wird heruntergeladen.",

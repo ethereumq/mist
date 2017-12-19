@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "Legacy chain detected",
-                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/ethereumq/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -119,7 +119,7 @@
             "runningNodeFound": "Encontrado nodo Ethereum Quantum funcionando!",
             "startingNode": "Iniciando el nodo Ethereum...",
             "startedNode": "Iniciando la aplicación...",
-            "nodeConnectionTimeout": "No se pudo iniciar un nodo Ethereum!<br><small>Si <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>has instalado Geth</a>, utiliza este comando para ejecutarlo: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> O informa del problema </a></small>",
+            "nodeConnectionTimeout": "No se pudo iniciar un nodo Ethereum!<br><small>Si <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>has instalado Geth</a>, utiliza este comando para ejecutarlo: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereumq/mist/issues' class='button' target='_blank'> O informa del problema </a></small>",
             "nodeBinaryNotFound": "No se ha encontrado el binario del nodo Ethereum!<br><small> <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'> Por favor, inicie antes uno manualmente. </a> </small>",
             "nodeSyncing": "El nodo de Ethereum Quantum necesita sincronizarse, por favor espere...",
             "nodeSyncInfo": "Descargando bloque __displayBlock__ de __highestBlock__.",
