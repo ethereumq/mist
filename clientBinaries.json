@@ -6,10 +6,10 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://ethereumq.org/builds/geth-linux-amd64-1.7.4",
+                            "url": "https://github.com/ethereumq/go-ethereumq/releases/download/1.7.4/gethq-linux64-1.7.4.tar.gz",
                             "type": "tar",
-                            "md5": "cc4a666fd21ae3627ee8ae974650b2f7",
-                            "bin": "geth-linux-amd64-1.7.4/gethq"
+                            "md5": "512d9b4c7ad96b991c0113aa2b172667",
+                            "bin": "gethq-linux64-1.7.4/gethq"
                         },
                         "bin": "gethq",
                         "commands": {
@@ -26,10 +26,10 @@
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://ethereumq.org/builds/geth-linux-386-1.7.4-1db4ecdc.tar.gz",
+                            "url": "https://github.com/ethereumq/go-ethereumq/releases/download/1.7.4/gethq-linux32-1.7.4.tar.gz",
                             "type": "tar",
                             "md5": "84b3a2d491db6f79fd84daa242da9ec6",
-                            "bin": "geth-linux-386-1.7.4/gethq"
+                            "bin": "gethq-linux32-1.7.4/gethq"
                         },
                         "bin": "gethq",
                         "commands": {
@@ -48,10 +48,10 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://ethereumq.org/builds/geth-darwin-amd64-1.7.4-1db4ecdc.tar.gz",
+                            "url": "https://github.com/ethereumq/go-ethereumq/releases/download/1.7.4/gethq-darwin-amd64-1.7.4.tar.gz",
                             "type": "tar",
-                            "md5": "1220015825ee8772aada37353aa3f7ef",
-                            "bin": "geth-darwin-amd64-1.7.4/gethq"
+                            "md5": "b921b70dc230628a138ef4cc00d172fa",
+                            "bin": "gethq-darwin-amd64-1.7.4/gethq"
                         },
                         "bin": "gethq",
                         "commands": {
@@ -66,50 +66,8 @@
                             }
                         }
                     }
-                },
-                "win": {
-                    "x64": {
-                        "download": {
-                            "url": "https://ethereumq.org/builds/geth-windows-amd64-1.7.4.zip",
-                            "type": "zip",
-                            "md5": "b34d22226c2d8c6729b4c01a2f25f818",
-                            "bin": "geth-windows-amd64-1.7.4\\gethq.exe"
-                        },
-                        "bin": "geth.exe",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Gethq",
-                                    "1.7.4"
-                                ]
-                            }
-                        }
-                    },
-                    "ia32": {
-                        "download": {
-                            "url": "https://ethereumq.org/builds/geth-windows-386-1.7.4.zip",
-                            "type": "zip",
-                            "md5": "50b353bf3639a502b06e0098c751df67",
-                            "bin": "geth-windows-386-1.7.4\\gethq.exe"
-                        },
-                        "bin": "gethq.exe",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Gethq",
-                                    "1.7.4"
-                                ]
-                            }
-                        }
-                    }
                 }
-            }
+             }
         }
     }
   }
