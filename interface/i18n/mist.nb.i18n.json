@@ -5,7 +5,7 @@
                 "label": "__app__",
                 "about": "Om __app__",
                 "checkForUpdates": "Se etter oppdateringer...",
-                "checkForNodeUpdates": "Check for Ethereum node updates...",
+                "checkForNodeUpdates": "Check for Ethereum Quantum node updates...",
                 "services": "Tjenester",
                 "hide": "Skjul __app__",
                 "hideOthers": "Skjul Andre",
@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "Legacy chain detected",
-                "description": "Your node is currently on the unsupported Ethereum Classic chain. To use this chain use tools provided by the ethereum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main ethereum chain follow the tutorial here:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/ethereumq/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -98,7 +98,7 @@
             "mainNetwork": "Hovednett",
             "testNetwork": "Testnett",
             "privateNetwork": "Privatnett",
-            "mainnetExplain": "Du er på det globale Ethereum hovednettverket",
+            "mainnetExplain": "Du er på det globale Ethereum Quantum hovednettverket",
             "testnetExplain": "Du er på testnettet, IKKE SEND noen ekte ether til disse adressene",
             "privatenetExplain": "Du er på et privatnett, IKKE SEND noen ekte ether til disse adressene",
             "unknownnetExplain": "Kan ikke fastslå hvilket nettverk du er på",
@@ -120,8 +120,8 @@
             "startingNode": "Starter Ethereum-node...",
             "stoppingNode": "Stopper Ethereum-node...",
             "startedNode": "Starter applikasjonen...",
-            "nodeConnectionTimeout": "Kunne ikke starte Ethereum-node!<br><small>Hvis du <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'>installerte Geth</a>, bruk denne kommandoen for å kjøre det: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> Eller rapporter et problem </a></small>",
-            "nodeBinaryNotFound": "Ingen Ethereum-node kilde funnet!<br><small> <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'> Vennligst start en manuelt først. </a> </small>",
+            "nodeConnectionTimeout": "Kunne ikke starte Ethereum-node!<br><small>Hvis du <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>installerte Geth</a>, bruk denne kommandoen for å kjøre det: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereumq/mist/issues' class='button' target='_blank'> Eller rapporter et problem </a></small>",
+            "nodeBinaryNotFound": "Ingen Ethereum-node kilde funnet!<br><small> <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'> Vennligst start en manuelt først. </a> </small>",
             "nodeStarting": "Ethereum-node starter opp...",
             "nodeStarted": "Ethereum-node startet",
             "nodeConnected": "Ethereum-node tilkoblet",
@@ -208,7 +208,7 @@
                 "gotoMainnet": "Bruk hovednettverket",
                 "gotoMainnetDescription": " Du trenger noen ether for å skape og utføre kontrakter. Ikke bekymre deg, vi vil hjelpe deg å skaffe noen...",
                 "doYouHaveAWalletFile": "Har du en lommebok-fil?",
-                "walletFileDescription": "<p>Hvis du har deltatt på forhåndssalget av Ethereum i 2014, har du en fil med navnet <code>ethereum_wallet_backup.json</code>. Den ble lastet ned etter salget, og også sendt til din e-post</p>",
+                "walletFileDescription": "<p>Hvis du har deltatt på forhåndssalget av Ethereum Quantum i 2014, har du en fil med navnet <code>ethereum_wallet_backup.json</code>. Den ble lastet ned etter salget, og også sendt til din e-post</p>",
                 "dropFilesHere": "Slipp filen fra forhåndssalget",
                 "creating": "Lager...",
                 "importing": "Importerer...",

@@ -27,8 +27,8 @@ RequestExecutionLevel admin
 
 !searchreplace APPNAMENOHYPEN ${APPNAME} "-" " "
 !define GROUPNAME "Ethereum"
-!define HELPURL "https://github.com/ethereum/mist/releases/issues"
-!define UPDATEURL "https://github.com/ethereum/mist/releases"
+!define HELPURL "https://github.com/ethereumq/mist/releases/issues"
+!define UPDATEURL "https://github.com/ethereumq/mist/releases"
 !define ABOUTURL "https://ethereum.org"
 !define /date NOW "%Y%m%d"
 

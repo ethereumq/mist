@@ -1,7 +1,7 @@
 
 
 /**
-The IPC provider backend filter and tunnel all incoming request to the ethereum node.
+The IPC provider backend filter and tunnel all incoming request to the Ethereum Quantum node.
 
 @module ipcProviderBackend
 */
@@ -199,9 +199,9 @@ class IpcProviderBackend {
 
 
     /**
-     * Handler for when Ethereum node state changes.
+     * Handler for when Ethereum Quantum node state changes.
      *
-     * Auto-reconnect sockets when ethereum node state changes
+     * Auto-reconnect sockets when Ethereum Quantum node state changes
      *
      * @param {String} state The new state.
      */

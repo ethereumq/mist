@@ -256,7 +256,7 @@ class EthereumNode extends EventEmitter {
 
 
     /**
-     * Start an ethereum node.
+     * Start an Ethereum Quantum node.
      * @param  {String} nodeType geth, eth, etc
      * @param  {String} network  network id
      * @return {Promise}
