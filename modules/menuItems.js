@@ -217,11 +217,11 @@ let menuTempl = function (webviews) {
                                 if (process.platform === 'freebsd' ||
                                 process.platform === 'linux' ||
                                 process.platform === 'sunos') {
-                                    userPath += '/.Ethereum Quantum /keystore';
+                                    userPath += '/.ethereumquantum/keystore';
                                 }
 
                                 if (process.platform === 'win32') {
-                                    userPath = `${Settings.appDataPath}\\"Ethereum Quantum\\keystore`;
+                                    userPath = `${Settings.appDataPath}\\EthereumQuantum\\keystore`;
                                 }
                             }
 

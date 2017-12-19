@@ -149,9 +149,9 @@ ipc.on('backendAction_checkWalletFile', (e, path) => {
 
                     if (process.platform === 'freebsd' ||
                         process.platform === 'linux' ||
-                        process.platform === 'sunos') keystorePath += '/."Ethereum Quantum /keystore';
+                        process.platform === 'sunos') keystorePath += '/etheremquantum/keystore';
 
-                    if (process.platform === 'win32') keystorePath = `${Settings.appDataPath}\\"Ethereum Quantum \\keystore`;
+                    if (process.platform === 'win32') keystorePath = `${Settings.appDataPath}\\EthereumQuantum\\keystore`;
                 }
 
                 if (!/^[0-9a-fA-F]{40}$/.test(keyfile.address)) {
