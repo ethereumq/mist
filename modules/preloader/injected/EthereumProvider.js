@@ -157,7 +157,7 @@
 
 
     delete window.EventEmitter;
-    // TODO set real ethereum provider
+    // TODO set real Ethereum Quantum provider
     // window.ethereum = new EthereumProvider();
 
 

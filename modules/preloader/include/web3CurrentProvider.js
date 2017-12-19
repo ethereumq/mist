@@ -1,5 +1,5 @@
 /**
-Sets the ethereum provider, as well as "web3" for backwards compatibility.
+Sets the Ethereum Quantum provider, as well as "web3" for backwards compatibility.
 
 @module ethereumProvider
 */
@@ -9,7 +9,7 @@ const ipcProviderWrapper = require('../../ipc/ipcProviderWrapper.js');
 const LegacyWeb3IpcProvider = require('./legacyWeb3IpcProvider.js');
 
 
-// SET ETHEREUM PROVIDER
+// SET Ethereum Quantum PROVIDER
 // window.ethereumProvider = new Web3.providers.IpcProvider('', ipcProviderWrapper);
 
 

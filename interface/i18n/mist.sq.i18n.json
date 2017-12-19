@@ -72,7 +72,7 @@
             "nodeStartup": "Duket se nyja nuk mund të niset. Mos keni ndonjë nyje tjetër është aktive? Mos është duke pasuruar bazën e të dhënave në këto momente?",
             "timeSync": {
                 "title": "Ora e kompjuterit tuaj nuk është e sinkronizuar.",
-                "description": "Në mënyrë që të sinkronizoheni me sukses me rrjetin Ethereum ju duhet të sinkronizoni orën tuaj të kompjuterit me një server sinkronizues kohe.",
+                "description": "Në mënyrë që të sinkronizoheni me sukses me rrjetin Ethereum Quantum ju duhet të sinkronizoni orën tuaj të kompjuterit me një server sinkronizues kohe.",
                 "win32": "Shkoni në \"Internet Time Settings\" te preferencat tuaja të sistemit dhe përzgjidhni opsionin përkatës. Për detaje shikoni këtë udhëzues: http://www.guidingtech.com/3119/windows-clock-sync/",
                 "linux": "Që të fusni në punë një server kohe të sinkronizuar instaloni \"ntp\" nëpërmjet \"apt-get install ntp\".",
                 "darwin": "Që të mundësoni një sinkronizim kohe,  hapni preferencat e kohës dhe përzgjidhni \"Set the time and date automatically\"."
@@ -83,7 +83,7 @@
             },
             "legacyChain": {
                 "title": "U zbulua zinxhir i vjetër",
-                "description": "Nyja juaj ndodhet në zinxhirin e pasuportuar Ethereum Classic. Për të përdorur këtë zinxhir, përdorni mjetet e mundësuara nga projekti Ethereum Classic në\nhttps://ethereumclassic.github.io.\n\nPër të kaluar në zinxhirin kryesor Ethereum ndiqni udhëzuesin këtu:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+                "description": "Nyja juaj ndodhet në zinxhirin e pasuportuar Ethereum Quantum Classic. Për të përdorur këtë zinxhir, përdorni mjetet e mundësuara nga projekti Ethereum Quantum Classic në\nhttps://ethereumclassic.github.io.\n\nPër të kaluar në zinxhirin kryesor Ethereum Quantum ndiqni udhëzuesin këtu:\nhttps://github.com/ethereum/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -123,19 +123,19 @@
             }
         },
         "startScreen": {
-            "runningNodeFound": "U gjet nyje Ethereum në punë!",
+            "runningNodeFound": "U gjet nyje Ethereum Quantum në punë!",
             "startingNode": "Duke krijuar nyje Ethereum...",
             "startedNode": "Duke nisur aplikacionin...",
-            "nodeConnectionTimeout": "Nuk mund të niset nyje Ethereum!<br><small>Nëse ju <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'>instaluat Geth</a>, përdorni këtë komandë ta krijoni: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> Ose raportoni një problem </a></small>",
-            "nodeBinaryNotFound": "Nuk u gjet nyje binare Ethereum!<br><small> <a href='https://www.ethereum.org/cli#geth' class='button' target='_blank'> Ju lutemi krijoni një manualisht më parë. </a> </small>",
-            "nodeStarting": "Nyja Ethereum po niset...",
-            "nodeStarted": "Nyja Ethereum u nis",
-            "nodeConnected": "Nyja Ethereum u lidh",
-            "nodeStopping": "Nyja Ethereum po ndalon...",
-            "nodeStopped": "Nyja Ethereum ndaloi",
+            "nodeConnectionTimeout": "Nuk mund të niset nyje Ethereum!<br><small>Nëse ju <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>instaluat Geth</a>, përdorni këtë komandë ta krijoni: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> Ose raportoni një problem </a></small>",
+            "nodeBinaryNotFound": "Nuk u gjet nyje binare Ethereum!<br><small> <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'> Ju lutemi krijoni një manualisht më parë. </a> </small>",
+            "nodeStarting": "Nyja Ethereum Quantum po niset...",
+            "nodeStarted": "Nyja Ethereum Quantum u nis",
+            "nodeConnected": "Nyja Ethereum Quantum u lidh",
+            "nodeStopping": "Nyja Ethereum Quantum po ndalon...",
+            "nodeStopped": "Nyja Ethereum Quantum ndaloi",
             "nodeError": "Problem lidhjeje i nyjes Ethereum:'(",
-            "unableToBindPort": "Nyja Ethereum nuk munt të fillojë. Mos ka ndonjë instancë tjetër të nisur?",
-            "nodeSyncing": "Nyja Ethereum ka nevojë të sinkronizohet, ju lutemi prisni...",
+            "unableToBindPort": "Nyja Ethereum Quantum nuk munt të fillojë. Mos ka ndonjë instancë tjetër të nisur?",
+            "nodeSyncing": "Nyja Ethereum Quantum ka nevojë të sinkronizohet, ju lutemi prisni...",
             "nodeSyncInfo": "Duke marrë bllokun __currentBlock__ nga __highestBlock__.",
             "nodeSyncInfoStates": "Duke shkarkuar bllokun __displayBlock__ nga __highestBlock__, <br> Duke shkarkuar strukturën e zinxhirit __displayState__ nga __displayKnownStates__",
             "nodeSyncConnecting": "Duke kërkuar miq...",
@@ -148,7 +148,7 @@
                 "downloading": "Duke shkarkuar nyje të re...",
                 "loadConfig": "Duke ngarkuar konfigurimin e klientit...",
                 "filtering": "Duke filtruar skedarët binarë të klientit...",
-                "done": "Nyja Ethereum e përditësuar...",
+                "done": "Nyja Ethereum Quantum e përditësuar...",
                 "error": "Problem me ekzekutimin e programit të shkarkuar."
             }
         },
@@ -238,7 +238,7 @@
                 "protectDescription": "Zgjidhni një fjalëkalim për adresën tuaj të re. Krijojeni aq të fortë sa të mjaftonte për të ruajtur çelësat e shtëpisë!",
                 "accountTitle": "Ngarko",
                 "accountTitleTestnet": "Puno",
-                "etherDescription": "Rrjeti Ethereum bazohet në monedhën e quajtur “Ether”. Nevojitet një sasi e vogël e tij për të bërë ndonjë gjë në rrjetin Ethereum.",
+                "etherDescription": "Rrjeti Ethereum Quantum bazohet në monedhën e quajtur “Ether”. Nevojitet një sasi e vogël e tij për të bërë ndonjë gjë në rrjetin Ethereum.",
                 "loadItDescription": "Nëse keni Bitcoin ose ndonjë kriptovalutë tjetër, mund t'i këmbeni me ether duke përdorur shapeshift. <br><br> Ne ju rekomandojmë ngarkimin e <strong>0.25 deri 1 ether</strong>.",
                 "mineItDescription": "<strong>Në rrjetin test mund të përftoni ether duke shkuar në menunë <em>Zhvillo</em> dhe duke zgjedhur <em>Fillo të punosh</em>. </strong> <br> <strong> MOS PROVONI Txxx DxxxRGONI ETHER Txxx VxxxRTETxxx Nxxx KxxxTxxx ADRESxxx </strong>",
                 "you": "JU",

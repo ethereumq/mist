@@ -18,7 +18,7 @@ if (typeof window.dbSync !== 'undefined') {
 }
 
 
-// ETHEREUM RELATED
+// Ethereum Quantum RELATED
 
 // Accounts collection is add by the ethereum:accounts package
 

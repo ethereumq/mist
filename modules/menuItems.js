@@ -438,7 +438,7 @@ let menuTempl = function (webviews) {
             enabled: true,
             click() {
                 Windows.createPopup('remix', {
-                    url: 'https://remix.ethereum.org',
+                    url: 'https://remix.ethereumq.org',
                     electronOptions: {
                         width: 1024,
                         height: 720,
