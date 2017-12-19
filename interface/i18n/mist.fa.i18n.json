@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "Legacy chain detected",
-                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum Classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/"Ethereum Quantum /mist/releases/0.8.2"
+                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum Classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/ethereumq/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -120,8 +120,8 @@
             "startingNode": "Starting Ethereum Quantum node...",
             "stoppingNode": "Stopping Ethereum Quantum node...",
             "startedNode": "Starting application...",
-            "nodeConnectionTimeout": "Couldn't start Ethereum Quantum node!<br><small>If you <a href='https://www."Ethereum Quantum .org/cli#geth' class='button' target='_blank'>installed Geth</a>, use this command to run it: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/"Ethereum Quantum /mist/issues' class='button' target='_blank'> Or report an issue </a></small>",
-            "nodeBinaryNotFound": "No Ethereum Quantum node binary found!<br><small> <a href='https://www."Ethereum Quantum .org/cli#geth' class='button' target='_blank'> Please start one manually before. </a> </small>",
+            "nodeConnectionTimeout": "Couldn't start Ethereum Quantum node!<br><small>If you <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>installed Geth</a>, use this command to run it: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereumq/mist/issues' class='button' target='_blank'> Or report an issue </a></small>",
+            "nodeBinaryNotFound": "No Ethereum Quantum node binary found!<br><small> <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'> Please start one manually before. </a> </small>",
             "nodeStarting": "Ethereum Quantum node starting up...",
             "nodeStarted": "Ethereum Quantum node started",
             "nodeConnected": "Ethereum Quantum node connected",

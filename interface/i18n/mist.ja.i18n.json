@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "Legacy chain detected",
-                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/"Ethereum Quantum /mist/releases/0.8.2"
+                "description": "Your node is currently on the unsupported Ethereum Quantum Classic chain. To use this chain use tools provided by the Ethereum Quantum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main Ethereum Quantum chain follow the tutorial here:\nhttps://github.com/ethereumq/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -119,8 +119,8 @@
             "runningNodeFound": "走っているEthereum nodeを見つけました!",
             "startingNode": "Ethereum Quantum ノードを開始しています。",
             "startedNode": "アプリケーションを開始しています...",
-            "nodeConnectionTimeout": "Ethereum Quantum nodeをスタート出来ませんでした!<br><small>もし<a href='https://www."Ethereum Quantum .org/cli#geth' class='button' target='_blank'>Geth</a>をインストールしているならば,このコマンドを使ってみてください: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/"Ethereum Quantum /mist/issues' class='button' target='_blank'>もしくは問題を報告して下さい。 </a></small>",
-            "nodeBinaryNotFound": "Ethereum Quantum node バイナリーが見つかりませんでした。<br><small> <a href='https://www."Ethereum Quantum .org/cli#geth' class='button' target='_blank'> 手動でスタートして下さい。 </a> </small>",
+            "nodeConnectionTimeout": "Ethereum Quantum nodeをスタート出来ませんでした!<br><small>もし<a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>Geth</a>をインストールしているならば,このコマンドを使ってみてください: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereumq/mist/issues' class='button' target='_blank'>もしくは問題を報告して下さい。 </a></small>",
+            "nodeBinaryNotFound": "Ethereum Quantum node バイナリーが見つかりませんでした。<br><small> <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'> 手動でスタートして下さい。 </a> </small>",
             "nodeSyncing": "Ethereum Quantum node は同期中です...",
             "nodeSyncInfo": "blockをダウンロードしています。 __displayBlock__ of __highestBlock__.",
             "nodeSyncConnecting": "ピアーを探しています。...",

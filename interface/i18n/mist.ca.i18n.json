@@ -102,7 +102,7 @@
             },
             "legacyChain": {
                 "title": "Cadena 'legacy' detectada",
-                "description": "El teu node està actualment a la cadena d'Ethereum Classic. Per utilitzar aquesta cadena, utilitza les eines proporcionades pel projecte Ethereum Quantum classic a\nhttps://ethereumclassic.github.io.\n\nPer canviar a la cadena principal d'ethereum segueix el aquest tutorial:\nhttps://github.com/"Ethereum Quantum /mist/releases/0.8.2"
+                "description": "El teu node està actualment a la cadena d'Ethereum Classic. Per utilitzar aquesta cadena, utilitza les eines proporcionades pel projecte Ethereum Quantum classic a\nhttps://ethereumclassic.github.io.\n\nPer canviar a la cadena principal d'ethereum segueix el aquest tutorial:\nhttps://github.com/ethereumq/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -147,12 +147,12 @@
             "startingNode": "Iniciant node d'Ethereum...",
             "stoppingNode": "Aturant node d'Ethereum...",
             "startedNode": "Iniciant l'aplicació...",
-            "nodeConnectionTimeout": "No s'ha pogut iniciar el node d'Ethereum!<br><small>Si has <a href='https://www."Ethereum Quantum .org/cli#geth' class='button' target='_blank'>instal·lat Geth</a>, utilitza aquesta comanda per executar-lo: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/"Ethereum Quantum /mist/issues' class='button' target='_blank'> O notifica l'error </a></small>",
-            "nodeBinaryNotFound": "No s'ha torbat el binari del node d'Ethereum!<br><small> <a href='https://www."Ethereum Quantum .org/cli#geth' class='button' target='_blank'> Si us plau inicia'n un manualment primer. </a> </small>",
+            "nodeConnectionTimeout": "No s'ha pogut iniciar el node d'Ethereum!<br><small>Si has <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'>instal·lat Geth</a>, utilitza aquesta comanda per executar-lo: <br> <code>geth --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereumq/mist/issues' class='button' target='_blank'> O notifica l'error </a></small>",
+            "nodeBinaryNotFound": "No s'ha torbat el binari del node d'Ethereum!<br><small> <a href='https://www.ethereumq.org/cli#geth' class='button' target='_blank'> Si us plau inicia'n un manualment primer. </a> </small>",
             "nodeStarting": "Node d'Ethereum iniciant-se...",
             "nodeStarted": "Node d'Ethereum iniciat",
             "nodeConnected": "Node d'Ethereum connectat",
-            "nodeStopping": "Ethereum Quantum node aturant-se...",
+            "nodeStopping": "Ethereum node aturant-se...",
             "nodeStopped": "Node d'Ethereum aturat",
             "nodeError": "Error de connectivitat del node d'Ethereum:'(",
             "unableToBindPort": "El node d'Ethereum no pot executar-se. N'hi ha alguna altra instància excutant-se?",
@@ -242,7 +242,7 @@
                 "lookupDataExplainer": "Mira això a internet"
             },
             "onboarding": {
-                "description": "Ethereum Quantum és una plataforma per aplicacions descentralitzades de la blockchain amb un llenguatge de programació complet",
+                "description": "Ethereum és una plataforma per aplicacions descentralitzades de la blockchain amb un llenguatge de programació complet",
                 "goToTestnet": "Utilitza la xarxa de test (Rinkeby)",
                 "goToTestnetDescription": "Prova la tecnologia lliurement a la xarxa de test 'sandboxed', sembla utilitzar Ether real.",
                 "gotoMainnet": "Utilitza la xarxa principal",
