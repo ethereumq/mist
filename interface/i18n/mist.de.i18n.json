@@ -187,7 +187,7 @@
                     "connectionTimeout": "Eine Verbindung mit dem Softwareknoten war nicht möglich, eventuell ist der Softwareknoten im Hintergrund abgestürzt?",
                     "wrongPassword": "Falsches Passwort",
                     "multipleKeysMatchAddress": "Mehrere Konten stimmen mit der Adresse überein, bitte entferne Duplikate aus dem keystore Verzeichnis (Menü -> Konten -> Sicherung -> Konten)",
-                    "insufficientFundsForGas": "Zu wenig Mittel im Hauptkonto (etherbase) um für Gas zu bezahlen",
+                    "insufficientFundsForGas": "Zu wenig Mittel im Hauptkonto (etherqbase) um für Gas zu bezahlen",
                     "sameAccount": "Kann nicht zum gleichen Konto schicken."
                 },
                 "transactionThrow": "Der Vertrag wird diese Transaktion nicht ausführen können",
@@ -220,7 +220,7 @@
                 "loadItDescription": "Wenn du bereits über Bitcoin oder eine andere Kryptowährung verfügst, kannst du diese mit Shapeshift einfach in etherq umtauschen. <br><br> Wir empfehlen, ca. <strong>0.25 bis 1 etherq</strong> einzutauschen.",
                 "mineItDescription": "<strong>Auf dem Testnetz kannst du selbst etherq minen. Bitte gehe dazu in den Menüpunkt <em>Entwicklung</em> menu und wähle <em>Mining starten</em>. </strong> <br> <strong> VERSUCHE NICHT, ECHTE etherq AN DIESE ADRESSE ZU SENDEN! </strong>",
                 "you": "DU",
-                "etherbase": "Hauptkonto (etherbase)",
+                "etherqbase": "Hauptkonto (etherqbase)",
                 "depositBitcoin": "Bitcoin eintauschen",
                 "learnIt": "Lerne Ethereum Quantum kennen, während du wartest",
                 "downloadingBlocks": "Blöcke werden heruntergeladen",

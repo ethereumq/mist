@@ -188,7 +188,7 @@
                     "connectionTimeout": "Kunne ikke koble til noden, krasjet den i bakgrunnen?",
                     "wrongPassword": "Feil passord",
                     "multipleKeysMatchAddress": "Multiple keys match address, please remove duplicates from keystore (menu -> accounts -> backup -> accounts)",
-                    "insufficientFundsForGas": "Insufficient funds in main account (etherbase) to pay for gas",
+                    "insufficientFundsForGas": "Insufficient funds in main account (etherqbase) to pay for gas",
                     "sameAccount": "Can't send to itself"
                 },
                 "transactionThrow": "The contract won't allow this transaction to be executed",
@@ -222,7 +222,7 @@
                 "loadItDescription": "Hvis du allerede eier bitcoin, eller hvilken som helst annen kryptovaluta, kan du enkelt konvertere den til etherq via Shapeshift. <br><br> Vi anbefaler å fylle opp med mellom <strong>0.25 til 1 etherq</strong>.",
                 "mineItDescription": "<strong>På testnettet kan du mine etherq selv ved å gå til <em>Utvikle</em> menyvalget og velge <em>Start Mining</em>. </strong> <br> <strong> IKKE PRØV Å SENDE EKTE etherq TIL DENNE ADRESSEN </strong>",
                 "you": "DU",
-                "etherbase": "Hovedkonto (etherbase)",
+                "etherqbase": "Hovedkonto (etherqbase)",
                 "depositBitcoin": "Sett inn bitcoin",
                 "learnIt": "Lær mens du venter",
                 "downloadingBlocks": "Laster ned blokker",

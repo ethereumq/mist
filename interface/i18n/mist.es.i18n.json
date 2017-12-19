@@ -188,7 +188,7 @@
                     "connectionTimeout": "No se pudo conectar al nodo, ha dejado de funcionar en segundo plano?",
                     "wrongPassword": "Contraseña incorrecta",
                     "multipleKeysMatchAddress": "Multiple keys match address, please remove duplicates from keystore (menu -> accounts -> backup -> accounts)",
-                    "insufficientFundsForGas": "Insufficient funds in main account (etherbase) to pay for gas",
+                    "insufficientFundsForGas": "Insufficient funds in main account (etherqbase) to pay for gas",
                     "sameAccount": "Can't send to itself"
                 },
                 "transactionThrow": "The contract won't allow this transaction to be executed",
@@ -222,7 +222,7 @@
                 "loadItDescription": "Si ya dispone de Bitcoin o cualquier otra criptomoneda, puede convertirlas fácilmente a etherq utilizando shapeshift. <br><br> Recomendamos una cuantía de entre <strong>0.25 a 1 etherq</strong>.",
                 "mineItDescription": "<strong>En la red de pruebas puedes minar etherq tú mismo desde el menú <em>Desarrollar</em> y eligiendo <em>Empezar a minar</em>. </strong> <br> <strong> NO INTENTE ENVIAR etherq REALES A ESTA DIRECCIÓN </strong>",
                 "you": "TÚ",
-                "etherbase": "Cuenta principal (etherbase)",
+                "etherqbase": "Cuenta principal (etherqbase)",
                 "depositBitcoin": "Depositar Bitcoin",
                 "learnIt": "Aprenda mientras espera",
                 "downloadingBlocks": "Descargando bloques",
