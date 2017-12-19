@@ -1,6 +1,6 @@
 Ethereum Wallet
 
-The Ethereum Quantum wallet, which allows you to create simple and multisig wallets to manage your ether.
+The Ethereum Quantum wallet, which allows you to create simple and multisig wallets to manage your etherq.
 
 The wallet contains its own node, but can also use an already running one, if the IPC path of that node is the standard path.
 (See below)
@@ -25,7 +25,7 @@ which will be used by the wallet contracts you create.
 The point of the original wallet is that wallet contract creation is cheaper,
 as not the full code has to be deployed for every wallet.
 
-You need to make sure that the account displayed for the original wallet creation is unlocked and has at least 1 ether.
+You need to make sure that the account displayed for the original wallet creation is unlocked and has at least 1 etherq.
 
 
 ## Paths
