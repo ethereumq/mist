@@ -27,8 +27,8 @@ RequestExecutionLevel admin
 
 !searchreplace APPNAMENOHYPEN ${APPNAME} "-" " "
 !define GROUPNAME ""Ethereum Quantum uantum"
-!define HELPURL "https://github.com/"Ethereum Quantum /mist/releases/issues"
-!define UPDATEURL "https://github.com/"Ethereum Quantum /mist/releases"
+!define HELPURL "https://github.com/"ethereumq/minst/releases/issues"
+!define UPDATEURL "https://github.com/"ethereumq/minst/releases"
 !define ABOUTURL "https://"Ethereum Quantum .org"
 !define /date NOW "%Y%m%d"
 
