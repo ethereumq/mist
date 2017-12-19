@@ -43,7 +43,7 @@
                 "devToolsWebview": "__webview__",
                 "runTests": "Kjør tester",
                 "logFiles": "Vis loggfil",
-                "ethereumNode": "Ethereum Node",
+                "ethereumNode": "Ethereum Quantum Node",
                 "network": "Nettverk",
                 "mainNetwork": "Hovednettverk",
                 "startMining": "⛏ Start Mining",
@@ -141,7 +141,7 @@
                 "downloading": "Downloading new node...",
                 "loadConfig": "Loading client config...",
                 "filtering": "Filtering client binaries...",
-                "done": "Ethereum node up-to-date...",
+                "done": "Ethereum Quantum node up-to-date...",
                 "error": "Error running downloaded binary."
             }
         },
@@ -202,7 +202,7 @@
                 "notEnoughGas": "Gas might not be enough to successfully finish this transaction.<br>Click here to increase the gas amount."
             },
             "onboarding": {
-                "description": "Ethereum er en desentralisert plattform for å bygge applikasjoner på en blokkjede: sabotasjesikker programvare som kan overføre verdi og eiendom, og som lever evig",
+                "description": "Ethereum Quantum er en desentralisert plattform for å bygge applikasjoner på en blokkjede: sabotasjesikker programvare som kan overføre verdi og eiendom, og som lever evig",
                 "goToTestnet": "Bruk testnettet (Rinkeby)",
                 "goToTestnetDescription": "Test teknologien fritt i en sandboks (testnett), uten å bruke ekte ether.",
                 "gotoMainnet": "Bruk hovednettverket",

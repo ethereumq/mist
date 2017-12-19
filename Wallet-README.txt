@@ -9,11 +9,11 @@ The wallet contains its own node, but can also use an already running one, if th
 
 When you start the wallet on a testnet (e.g. different `--datadir`) you need to make sure to set the `--ipcpath` back to the original one.
 
-On OSX its `~/Library/Ethereum/geth.ipc` on linux `~/.ethereum/geth.ipc` and on windows it uses a named pipe, which doesn't need to be renamed.
+On OSX its `~/Library/EthereumQ/gethq.ipc` on linux `~/.ethereumq/gethq.ipc` and on windows it uses a named pipe, which doesn't need to be renamed.
 
 Example:
 
-    $ geth --datadir /my/chain/ --networkid 23 --ipcpath ~/Library/Ethereum/geth.ipc
+    $ geth --datadir /my/chain/ --networkid 23 --ipcpath ~/Library/EthereumQ/gethq.ipc
 
 
 
@@ -38,9 +38,9 @@ The wallet (Mist) stores its data at:
 - Linux: ~/.config/Mist
 
 The nodes data is stored at:
-- Mac: ~/Library/Ethereum
-- Windows: %APPDATA%\Roaming\Ethereum
-- Linux: ~/.ethereum
+- Mac: ~/Library/EthereumQ
+- Windows: %APPDATA%\Roaming\EthereumQ
+- Linux: ~/.ethereumq
 
 
 ## Issues

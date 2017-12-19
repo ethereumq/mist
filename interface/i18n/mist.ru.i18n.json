@@ -141,7 +141,7 @@
                 "downloading": "Downloading new node...",
                 "loadConfig": "Loading client config...",
                 "filtering": "Filtering client binaries...",
-                "done": "Ethereum node up-to-date...",
+                "done": "Ethereum Quantum node up-to-date...",
                 "error": "Error running downloaded binary."
             }
         },

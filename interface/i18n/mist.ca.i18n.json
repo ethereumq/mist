@@ -152,7 +152,7 @@
             "nodeStarting": "Node d'Ethereum iniciant-se...",
             "nodeStarted": "Node d'Ethereum iniciat",
             "nodeConnected": "Node d'Ethereum connectat",
-            "nodeStopping": "Ethereum node aturant-se...",
+            "nodeStopping": "Ethereum Quantum node aturant-se...",
             "nodeStopped": "Node d'Ethereum aturat",
             "nodeError": "Error de connectivitat del node d'Ethereum:'(",
             "unableToBindPort": "El node d'Ethereum no pot executar-se. N'hi ha alguna altra instància excutant-se?",
@@ -242,7 +242,7 @@
                 "lookupDataExplainer": "Mira això a internet"
             },
             "onboarding": {
-                "description": "Ethereum és una plataforma per aplicacions descentralitzades de la blockchain amb un llenguatge de programació complet",
+                "description": "Ethereum Quantum és una plataforma per aplicacions descentralitzades de la blockchain amb un llenguatge de programació complet",
                 "goToTestnet": "Utilitza la xarxa de test (Rinkeby)",
                 "goToTestnetDescription": "Prova la tecnologia lliurement a la xarxa de test 'sandboxed', sembla utilitzar Ether real.",
                 "gotoMainnet": "Utilitza la xarxa principal",
