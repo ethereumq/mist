@@ -8,7 +8,7 @@ The Mist browser is the tool of choice to browse and use Ðapps.
 
 For the Mist API see the [MISTAPI.md](MISTAPI.md).
 
-Please note that this repository is the Electron host for the Meteor based wallet dapp whose repository is located here: https://github.com/"Ethereum Quantum /meteor-dapp-wallet.
+Please note that this repository is the Electron host for the Meteor based wallet dapp whose repository is located here: https://github.com/ethereumq/meteor-dapp-wallet.
 
 ## Help and troubleshooting
 
@@ -79,7 +79,7 @@ In the original window you can then start Mist with:
     $ cd mist
     $ yarn dev:electron
 
-*NOTE: client-binaries (e.g. [geth](https://github.com/"Ethereum Quantum /go-ethereum)) specified in [clientBinaries.json](https://github.com/ethereumq/minst/blob/master/clientBinaries.json) will be checked during every startup and downloaded if out-of-date, binaries are stored in the [config folder](#config-folder)*
+*NOTE: client-binaries (e.g. [geth](https://github.com/ethereumq/go-ethereumq)) specified in [clientBinaries.json](https://github.com/ethereumq/minst/blob/master/clientBinaries.json) will be checked during every startup and downloaded if out-of-date, binaries are stored in the [config folder](#config-folder)*
 
 *NOTE: use `--help` to display available options, e.g. `--loglevel debug` (or `trace`) for verbose output*
 
@@ -178,7 +178,7 @@ To generate the binaries for Mist run:
 
     $ gulp
 
-To generate the Ethereum Quantum Wallet (this will pack the one Ðapp from https://github.com/"Ethereum Quantum /meteor-dapp-wallet):
+To generate the Ethereum Quantum Wallet (this will pack the one Ðapp from https://github.com/ethereumq/meteor-dapp-wallet):
 
     $ gulp --wallet
 

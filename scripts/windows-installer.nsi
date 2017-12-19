@@ -29,7 +29,7 @@ RequestExecutionLevel admin
 !define GROUPNAME ""Ethereum Quantum uantum"
 !define HELPURL "https://github.com/ethereumq/minst/releases/issues"
 !define UPDATEURL "https://github.com/ethereumq/minst/releases"
-!define ABOUTURL "https://"Ethereum Quantum .org"
+!define ABOUTURL "https://ethereumq.org"
 !define /date NOW "%Y%m%d"
 
 ## These must be integers and can be set on the command line by NSIS with "/DMAJORVERSION=0 /DMINORVERSION=8 /DBUILDVERSION=7"

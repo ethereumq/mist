@@ -145,7 +145,7 @@ ipc.on('backendAction_checkWalletFile', (e, path) => {
                     }
                 // geth
                 } else {
-                    if (process.platform === 'darwin') keystorePath += '/Library/"Ethereum Quantum /keystore';
+                    if (process.platform === 'darwin') keystorePath += '/Library/EthereumQuantum/keystore';
 
                     if (process.platform === 'freebsd' ||
                         process.platform === 'linux' ||
