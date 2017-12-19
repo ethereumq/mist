@@ -209,7 +209,7 @@ gulp.task('release-dist', (done) => {
     shell.rm('-rf', releasePath);
     shell.mkdir('-p', releasePath);
 
-    const appNameHypen = applicationName.replace(/\s/, '-').eplace(/\s/, '-');
+    const appNameHypen = applicationName.replace(/\s/, '-').replace(/\s/, '-');
     const appNameNoSpace = applicationName.replace(/\s/, '').replace(/\s/, '');
     const versionDashed = version.replace(/\./g, '-');
 
