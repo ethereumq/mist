@@ -1,4 +1,4 @@
-Ethereum Wallet
+Ethereum Quantum Wallet
 
 The Ethereum Quantum wallet, which allows you to create simple and multisig wallets to manage your etherq.
 
