@@ -217,25 +217,25 @@ Template['popupWindows_sendTransactionConfirmation'].helpers({
         return amount ? amount.substr(0, dotPos) + '<small style="font-size: 0.5em;">' + amount.substr(dotPos) + '</small>' : '0';
     },
     /**
-    Calculates the fee used for this transaction in etherq
+    Calculates the fee used for this transaction in ETHER
 
     @method (estimatedFee)
     */
     'estimatedFee': function () {
         var gas = TemplateVar.get('estimatedGas');
         if (gas && this.gasPrice) {
-            return EthTools.formatBalance(new BigNumber(gas, 10).times(new BigNumber(this.gasPrice, 10)), '0,0.0[0000000] unit', 'etherq');
+            return EthTools.formatBalance(new BigNumber(gas, 10).times(new BigNumber(this.gasPrice, 10)), '0,0.0[0000000] unit', 'ETHER');
         }
     },
     /**
-    Calculates the provided gas amount in etherq
+    Calculates the provided gas amount in ETHER
 
     @method (providedGas)
     */
     'providedGas': function () {
         var gas = TemplateVar.get('providedGas');
         if (gas && this.gasPrice) {
-            return EthTools.formatBalance(new BigNumber(gas, 10).times(new BigNumber(this.gasPrice, 10)), '0,0.0[0000000]', 'etherq');
+            return EthTools.formatBalance(new BigNumber(gas, 10).times(new BigNumber(this.gasPrice, 10)), '0,0.0[0000000]', 'ETHER');
         }
     },
     /**
@@ -284,7 +284,7 @@ Template['popupWindows_sendTransactionConfirmation'].helpers({
 
 Template['popupWindows_sendTransactionConfirmation'].events({
     /**
-    Gets the new provided gas in etherq amount and calculates the resulting providedGas
+    Gets the new provided gas in ETHER amount and calculates the resulting providedGas
 
     @event change .provided-gas, input .provided-gas
     */

@@ -16,8 +16,8 @@ Check the already existing issues to keep duplicates at a minimum.
 
 You'll find possible solutions for these common issues below on Mist Wiki: https://github.com/ethereumq/minst/wiki.
 
-- etherq is not shown in the wallet
-- I send etherq to the wallet contract but it doesn't show up
+- ETHER is not shown in the wallet
+- I send ETHER to the wallet contract but it doesn't show up
 - Mist is synchronized but is stuck during the last part
 - "Your computers time is out of sync!" error
 - Unable to find peers
